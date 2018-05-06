@@ -1,0 +1,28 @@
+
+
+
+<h2>Ingredients</h2>
+
+         <!-- <table class="table">
+            <thead>
+              <tr>
+                  <th *ngFor="let col of columns">
+                      {{col}}
+                  </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let ingredient of ingredients"></tr>
+                  <td>{{ingredient.id}}</td>
+                  <td>{{ingredient.name}}</td>
+                  <td>{{ingredient.weight}}</td>  
+                </tr>
+            </tbody>
+          </table>-->
+
+          <!--<button class="delete" title="delete hero" (click)="delete(hero)">x</button>-->
+          <ul>
+              <li *ngFor="let ingredient of ingredients" >
+                      <span>{{ingredient.id}}</span>{{ingredient.name}}
+              </li>
+          </ul>
